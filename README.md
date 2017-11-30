@@ -10,4 +10,15 @@ this npm module is for [Google Code In Task](https://codein.withgoogle.com/dashb
 
 ## Usage
 
-for usage you can see the test.js file
+- import the module
+```es6
+const hello = require("codein-hello-world-task");
+```
+- call
+```es6
+hello("dogci")
+    // fulfilled
+    .then(mess => log(mess))
+    // rejected
+    .catch(mess => log(mess));
+```
