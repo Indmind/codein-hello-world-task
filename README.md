@@ -16,7 +16,7 @@ const hello = require("codein-hello-world-task");
 ```
 - call
 ```es6
-hello("dogci")
+hello("sugarlabs")
     // fulfilled
     .then(mess => log(mess))
     // rejected
