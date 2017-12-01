@@ -18,7 +18,7 @@ const hello = require("codein-hello-world-task");
 ```es6
 hello("sugarlabs")
     // fulfilled
-    .then(mess => log(mess))
+    .then(mess => console.log(mess))
     // rejected
-    .catch(mess => log(mess));
+    .catch(mess => console.log(mess));
 ```
